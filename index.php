@@ -1,5 +1,5 @@
 <?php
-//Reads the variables sent via POST from AT gateway
+
 $_SESSION = $_POST["sessionID"];
 $serviceCode = $_POST["serviceCode"];
 $phoneNumber =$_POST["phoneNumber"];
